@@ -11,6 +11,8 @@ gem 'rails', '~> 5.1.7'
 gem 'jquery-rails', '4.3.1'
 gem 'bcrypt', '3.1.12'
 gem 'faker',          '1.7.3'
+gem 'carrierwave',             '1.2.2'
+gem 'mini_magick',             '4.7.0'
 gem 'will_paginate',           '3.1.6'
 gem 'bootstrap-will_paginate', '1.0.0'
 gem 'bootstrap-sass', '3.3.7'
@@ -36,7 +38,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem 'fog'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
